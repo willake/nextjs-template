@@ -4,9 +4,7 @@ import Layout from '../components/layout';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <Component {...pageProps} />
   );
 };
 
